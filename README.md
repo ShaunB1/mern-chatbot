@@ -9,4 +9,4 @@ A fullstack web application that utilizes the OpenAI API to generate responses t
 
 This web application was created using MongoDB, ExpressJS, ReactJS, NodeJS
 
-![homepage](https://github.com/ShaunB1/mern-chatbot/assets/51792193/71a4a414-bfd2-4ef5-b4aa-17b60094ff09)
+![homepage](https://github.com/ShaunB1/mern-chatbot/assets/51792193/38600c03-6e2a-475b-a832-f6ae6e0fadf4)

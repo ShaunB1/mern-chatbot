@@ -2,7 +2,7 @@
 A fullstack web application inspired by ChatGPT that utilizes the OpenAI API to generate responses to the user's input.
 
 ## Features
-* Database that stores the user's account information, including chat logs. These messages can be retreived or deleted.
+* Database that stores the user's account information, including chat logs. These messages can be retrieved or deleted.
 * JWT Tokens
 * HTTP-Only Cookies
 * Signed Cookies

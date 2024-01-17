@@ -8,6 +8,7 @@ A fullstack web application inspired by ChatGPT that utilizes the OpenAI API to 
 * Signed Cookies
 * Password Encryption
 * Middleware Chains
+* REST API
 
 This web application was created using MongoDB, ExpressJS, ReactJS, NodeJS
 

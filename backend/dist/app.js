@@ -7,7 +7,7 @@ import cors from "cors";
 config();
 const app = express();
 // Middlewares
-app.use(cors({ origin: "*", credentials: true }));
+app.use(cors({ origin: "https://mern-chatbot-seven.vercel.app", credentials: true }));
 app.use(express.json());
 app.use(cookieParser(process.env.COOKIE_SECRET));
 app.use(morgan("dev")); // remove in production

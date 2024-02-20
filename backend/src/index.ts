@@ -8,5 +8,3 @@ connectToDatabase().then(() => {
     console.log("Server Open and Connected to Database");
   });
 }).catch(err => console.log(err));
-
-

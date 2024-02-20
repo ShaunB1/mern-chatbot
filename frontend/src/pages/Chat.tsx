@@ -1,12 +1,12 @@
-import { Avatar, Box, Typography, Button, IconButton } from '@mui/material'
+import { Avatar, Box, Button, IconButton, Typography } from '@mui/material'
 import { red } from '@mui/material/colors'
-import React, { useEffect, useLayoutEffect, useRef, useState } from 'react'
-import { useAuth } from '../context/AuthContext'
-import { IoMdSend } from "react-icons/io"
-import ChatItem from '../components/chat/ChatItem';
-import { deleteUserChats, getUserChats, sendChatRequest } from '../helpers/api-communicator'
+import { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import toast from 'react-hot-toast'
-import { useNavigate } from "react-router-dom";
+import { IoMdSend } from "react-icons/io"
+import { useNavigate } from "react-router-dom"
+import ChatItem from '../components/chat/ChatItem'
+import { useAuth } from '../context/AuthContext'
+import { deleteUserChats, getUserChats, sendChatRequest } from '../helpers/api-communicator'
 
 type Message = {
   role: "user" | "assistant";

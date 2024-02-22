@@ -9,8 +9,8 @@ import axios from "axios";
 import { Toaster } from "react-hot-toast";
 
 // axios.defaults.baseURL = "https://mern-chatbot-hc94.vercel.app/api/v1";
-// axios.defaults.baseURL = "http://localhost:5000/api/v1";
-axios.defaults.baseURL = "https://mern-chatbot-hc94.vercel.app/api/v1";
+axios.defaults.baseURL = "http://localhost:5000/api/v1";
+
 axios.defaults.withCredentials = true;
 
 const theme = createTheme({

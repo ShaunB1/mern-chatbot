@@ -9,7 +9,6 @@ config();
 const app = express();
 
 const allowedOrigins = [
-    "https://mern-chatbot-seven.vercel.app",
     "http://localhost:5173"
 ]
 
